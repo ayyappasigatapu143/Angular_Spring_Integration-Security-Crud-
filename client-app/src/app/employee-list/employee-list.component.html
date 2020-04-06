@@ -1,0 +1,9 @@
+<select [(ngModel)]="selectedEmp" (ngModelChange)="changeEmployee($event)">
+    <option [ngValue]="emp" *ngFor="let emp of emp">{{emp.firstname+" "+emp.lastname}}</option>
+
+  
+</select>
+<h2> you have selected the above user with name {{selectedEmp.firstname + " "+selectedEmp.lastname}}</h2>
+
+<br>
+<br>

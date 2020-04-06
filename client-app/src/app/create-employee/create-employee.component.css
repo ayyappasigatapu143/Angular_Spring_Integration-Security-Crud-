@@ -1,0 +1,18 @@
+.submitstyle {
+    color: green;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.tablestyle {
+    margin-top: 30px;
+    margin-left: -57px;
+}
+
+.tablestyle tr td {
+    cursor: pointer;
+}
+
+.deleteStyle {
+    margin-left: 15px;
+}
